@@ -1,481 +1,439 @@
 {
-  "tempHash": "00803F02CE901E3A",
-  "tbluHash": "00AF0EBB71375913",
-  "patch": [
-    {
-      "SubEntityOperation": [
-        "cf7f99be98c1204b",
-        {
-          "AddEventConnection": [
-            "OnStart",
-            "Start",
-            "feed5fdeaa382433"
-          ]
-        }
-      ]
-    },
-    {
-      "SubEntityOperation": [
-        "cf7f99be98c1204b",
-        {
-          "AddEventConnection": [
-            "OnStart",
-            "Start",
-            "feed5fdeaa382434"
-          ]
-        }
-      ]
-    },
-    {
-      "SubEntityOperation": [
-        "cf7f99be98c1204b",
-        {
-          "AddEventConnection": [
-            "OnStart",
-            "Start",
-            "feed5fdeaa382435"
-          ]
-        }
-      ]
-    },
-    {
-      "SubEntityOperation": [
-        "cf7f99be98c1204b",
-        {
-          "AddEventConnection": [
-            "OnStart",
-            "Start",
-            "feed5fdeaa382436"
-          ]
-        }
-      ]
-    },
-    {
-      "SubEntityOperation": [
-        "cf7f99be98c1204b",
-        {
-          "AddEventConnection": [
-            "OnStart",
-            "Start",
-            "feed5fdeaa382437"
-          ]
-        }
-      ]
-    },
-    {
-      "SubEntityOperation": [
-        "cf7f99be98c1204b",
-        {
-          "AddEventConnection": [
-            "OnStart",
-            "Start",
-            "feed5fdeaa382438"
-          ]
-        }
-      ]
-    },
-    {
-      "SubEntityOperation": [
-        "1d384d6f42da6d4a",
-        {
-          "PatchArrayPropertyValue": [
-            "m_aRoles",
-            [
-              {
-                "AddItemAfter": [
-                  "42033a1384263c3",
-                  "feeda757c7598235"
-                ]
-              },
-              {
-                "AddItemAfter": [
-                  "42033a1384263c3",
-                  "feeda757c7598234"
-                ]
-              },
-              {
-                "AddItemAfter": [
-                  "42033a1384263c3",
-                  "feeda757c7598233"
-                ]
-              },
-              {
-                "AddItemAfter": [
-                  "42033a1384263c3",
-                  "feeda757c7598232"
-                ]
-              },
-              {
-                "AddItemAfter": [
-                  "42033a1384263c3",
-                  "feeda757c7598231"
-                ]
-              },
-              {
-                "AddItemAfter": [
-                  "42033a1384263c3",
-                  "feeda757c759823d"
-                ]
-              }
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feeda757c759823d",
-        {
-          "parent": "1d384d6f42da6d4a",
-          "name": "Guard",
-          "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_rActorProvider": {
-              "type": "SEntityTemplateReference",
-              "value": "9ab1782b888610d9"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feeda757c7598235",
-        {
-          "parent": "1d384d6f42da6d4a",
-          "name": "Guard",
-          "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_rActorProvider": {
-              "type": "SEntityTemplateReference",
-              "value": "9ab1782b888610d9"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feeda757c7598234",
-        {
-          "parent": "1d384d6f42da6d4a",
-          "name": "Guard",
-          "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_rActorProvider": {
-              "type": "SEntityTemplateReference",
-              "value": "9ab1782b888610d9"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feeda757c7598233",
-        {
-          "parent": "1d384d6f42da6d4a",
-          "name": "Guard",
-          "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_rActorProvider": {
-              "type": "SEntityTemplateReference",
-              "value": "9ab1782b888610d9"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feeda757c7598232",
-        {
-          "parent": "1d384d6f42da6d4a",
-          "name": "Guard",
-          "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_rActorProvider": {
-              "type": "SEntityTemplateReference",
-              "value": "9ab1782b888610d9"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feeda757c7598231",
-        {
-          "parent": "1d384d6f42da6d4a",
-          "name": "Guard",
-          "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_rActorProvider": {
-              "type": "SEntityTemplateReference",
-              "value": "9ab1782b888610d9"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feed5fdeaa382433",
-        {
-          "parent": "1d384d6f42da6d4a",
-          "name": "Act_MR_Military_Stand_Pistol_01_02 1",
-          "factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_mTransform": {
-              "type": "SMatrix43",
-              "value": {
-                "rotation": {
-                  "x": -91.62780733842146,
-                  "y": 0.007937320145789505,
-                  "z": -4.793824618034102
-                },
-                "position": {
-                  "x": 18.986017,
-                  "y": -139.46754,
-                  "z": -15.98764
-                }
-              }
-            },
-            "m_fActTimeout": {
-              "type": "float32",
-              "value": -1
-            },
-            "m_pActor": {
-              "type": "SEntityTemplateReference",
-              "value": "feeda757c759823d",
-              "postInit": true
-            },
-            "m_eidParent": {
-              "type": "SEntityTemplateReference",
-              "value": "fffffffffffffffe",
-              "postInit": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feed5fdeaa382434",
-        {
-          "parent": "1d384d6f42da6d4a",
-          "name": "Act_MR_Military_Stand_Pistol_01_02 2",
-          "factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_mTransform": {
-              "type": "SMatrix43",
-              "value": {
-                "rotation": {
-                  "x": -88.62944991543424,
-                  "y": 0.004784547513593932,
-                  "z": 115.92024938578557
-                },
-                "position": {
-                  "x": 13.724387,
-                  "y": -128.04608,
-                  "z": -15.117242
-                }
-              }
-            },
-            "m_fActTimeout": {
-              "type": "float32",
-              "value": -1
-            },
-            "m_pActor": {
-              "type": "SEntityTemplateReference",
-              "value": "feeda757c7598231",
-              "postInit": true
-            },
-            "m_eidParent": {
-              "type": "SEntityTemplateReference",
-              "value": "fffffffffffffffe",
-              "postInit": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feed5fdeaa382436",
-        {
-          "parent": "1d384d6f42da6d4a",
-          "name": "Act_MR_Military_Stand_Pistol_01_02 3",
-          "factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_mTransform": {
-              "type": "SMatrix43",
-              "value": {
-                "rotation": {
-                  "x": -84.34169621112119,
-                  "y": 0.004909198465946665,
-                  "z": 72.91997384326989
-                },
-                "position": {
-                  "x": 17.659400939941406,
-                  "y": -156.2097930908203,
-                  "z": -19.800020217895508
-                }
-              }
-            },
-            "m_fActTimeout": {
-              "type": "float32",
-              "value": -1
-            },
-            "m_pActor": {
-              "type": "SEntityTemplateReference",
-              "value": "feeda757c7598232",
-              "postInit": true
-            },
-            "m_eidParent": {
-              "type": "SEntityTemplateReference",
-              "value": "fffffffffffffffe",
-              "postInit": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feed5fdeaa382435",
-        {
-          "parent": "1d384d6f42da6d4a",
-          "name": "Act_MR_Military_Stand_Pistol_01_02 4",
-          "factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_mTransform": {
-              "type": "SMatrix43",
-              "value": {
-                "rotation": {
-                  "x": -84.7756386196596,
-                  "y": 0.002776471897610183,
-                  "z": -104.79799666209348
-                },
-                "position": {
-                  "x": 28.4876,
-                  "y": -131.0523,
-                  "z": -15.102858
-                }
-              }
-            },
-            "m_fActTimeout": {
-              "type": "float32",
-              "value": -1
-            },
-            "m_pActor": {
-              "type": "SEntityTemplateReference",
-              "value": "feeda757c7598233",
-              "postInit": true
-            },
-            "m_eidParent": {
-              "type": "SEntityTemplateReference",
-              "value": "fffffffffffffffe",
-              "postInit": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feed5fdeaa382437",
-        {
-          "parent": "1d384d6f42da6d4a",
-          "name": "Act_MR_Military_Stand_Pistol_01_02 4",
-          "factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_mTransform": {
-              "type": "SMatrix43",
-              "value": {
-                "rotation": {
-                  "x": -80.62177028345714,
-                  "y": 0.0322741412672445,
-                  "z": -179.83291126110115
-                },
-                "position": {
-                  "x": 21.045673,
-                  "y": -120.74592,
-                  "z": -10.126103
-                }
-              }
-            },
-            "m_fActTimeout": {
-              "type": "float32",
-              "value": -1
-            },
-            "m_pActor": {
-              "type": "SEntityTemplateReference",
-              "value": "feeda757c7598235",
-              "postInit": true
-            },
-            "m_eidParent": {
-              "type": "SEntityTemplateReference",
-              "value": "fffffffffffffffe",
-              "postInit": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "AddEntity": [
-        "feed5fdeaa382438",
-        {
-          "parent": "1d384d6f42da6d4a",
-          "name": "Act_MR_Military_Stand_Pistol_01_02 4",
-          "factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_mTransform": {
-              "type": "SMatrix43",
-              "value": {
-                "rotation": {
-                  "x": -88.33697438498513,
-                  "y": 0.023444624326068766,
-                  "z": -144.40645490429418
-                },
-                "position": {
-                  "x": 27.460194,
-                  "y": -123.85408,
-                  "z": -14.463667
-                }
-              }
-            },
-            "m_fActTimeout": {
-              "type": "float32",
-              "value": -1
-            },
-            "m_pActor": {
-              "type": "SEntityTemplateReference",
-              "value": "feeda757c7598234",
-              "postInit": true
-            },
-            "m_eidParent": {
-              "type": "SEntityTemplateReference",
-              "value": "fffffffffffffffe",
-              "postInit": true
-            }
-          }
-        }
-      ]
-    }
-  ],
-  "patchVersion": 6
+	"tempHash": "00803F02CE901E3A",
+	"tbluHash": "00AF0EBB71375913",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"cf7f99be98c1204b",
+				{
+					"AddEventConnection": ["OnStart", "Start", "feed5fdeaa382433"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cf7f99be98c1204b",
+				{
+					"AddEventConnection": ["OnStart", "Start", "feed5fdeaa382434"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cf7f99be98c1204b",
+				{
+					"AddEventConnection": ["OnStart", "Start", "feed5fdeaa382435"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cf7f99be98c1204b",
+				{
+					"AddEventConnection": ["OnStart", "Start", "feed5fdeaa382436"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cf7f99be98c1204b",
+				{
+					"AddEventConnection": ["OnStart", "Start", "feed5fdeaa382437"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cf7f99be98c1204b",
+				{
+					"AddEventConnection": ["OnStart", "Start", "feed5fdeaa382438"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1d384d6f42da6d4a",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aRoles",
+						[
+							{
+								"AddItemAfter": ["42033a1384263c3", "feeda757c7598235"]
+							},
+							{
+								"AddItemAfter": ["42033a1384263c3", "feeda757c7598234"]
+							},
+							{
+								"AddItemAfter": ["42033a1384263c3", "feeda757c7598233"]
+							},
+							{
+								"AddItemAfter": ["42033a1384263c3", "feeda757c7598232"]
+							},
+							{
+								"AddItemAfter": ["42033a1384263c3", "feeda757c7598231"]
+							},
+							{
+								"AddItemAfter": ["42033a1384263c3", "feeda757c759823d"]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeda757c759823d",
+				{
+					"parent": "1d384d6f42da6d4a",
+					"name": "Guard",
+					"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rActorProvider": {
+							"type": "SEntityTemplateReference",
+							"value": "9ab1782b888610d9"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeda757c7598235",
+				{
+					"parent": "1d384d6f42da6d4a",
+					"name": "Guard",
+					"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rActorProvider": {
+							"type": "SEntityTemplateReference",
+							"value": "9ab1782b888610d9"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeda757c7598234",
+				{
+					"parent": "1d384d6f42da6d4a",
+					"name": "Guard",
+					"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rActorProvider": {
+							"type": "SEntityTemplateReference",
+							"value": "9ab1782b888610d9"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeda757c7598233",
+				{
+					"parent": "1d384d6f42da6d4a",
+					"name": "Guard",
+					"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rActorProvider": {
+							"type": "SEntityTemplateReference",
+							"value": "9ab1782b888610d9"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeda757c7598232",
+				{
+					"parent": "1d384d6f42da6d4a",
+					"name": "Guard",
+					"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rActorProvider": {
+							"type": "SEntityTemplateReference",
+							"value": "9ab1782b888610d9"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeda757c7598231",
+				{
+					"parent": "1d384d6f42da6d4a",
+					"name": "Guard",
+					"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rActorProvider": {
+							"type": "SEntityTemplateReference",
+							"value": "9ab1782b888610d9"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed5fdeaa382433",
+				{
+					"parent": "1d384d6f42da6d4a",
+					"name": "Act_MR_Military_Stand_Pistol_01_02 1",
+					"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -91.62780733842146,
+									"y": 0.007937320145789505,
+									"z": -4.793824618034102
+								},
+								"position": {
+									"x": 18.986017,
+									"y": -139.46754,
+									"z": -15.98764
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": -1
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "feeda757c759823d",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed5fdeaa382434",
+				{
+					"parent": "1d384d6f42da6d4a",
+					"name": "Act_MR_Military_Stand_Pistol_01_02 2",
+					"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -88.62944991543424,
+									"y": 0.004784547513593932,
+									"z": 115.92024938578557
+								},
+								"position": {
+									"x": 13.724387,
+									"y": -128.04608,
+									"z": -15.117242
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": -1
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "feeda757c7598231",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed5fdeaa382436",
+				{
+					"parent": "1d384d6f42da6d4a",
+					"name": "Act_MR_Military_Stand_Pistol_01_02 3",
+					"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -84.34169621112119,
+									"y": 0.004909198465946665,
+									"z": 72.91997384326989
+								},
+								"position": {
+									"x": 17.659400939941406,
+									"y": -156.2097930908203,
+									"z": -19.800020217895508
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": -1
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "feeda757c7598232",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed5fdeaa382435",
+				{
+					"parent": "1d384d6f42da6d4a",
+					"name": "Act_MR_Military_Stand_Pistol_01_02 4",
+					"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -84.7756386196596,
+									"y": 0.002776471897610183,
+									"z": -104.79799666209348
+								},
+								"position": {
+									"x": 28.4876,
+									"y": -131.0523,
+									"z": -15.102858
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": -1
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "feeda757c7598233",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed5fdeaa382437",
+				{
+					"parent": "1d384d6f42da6d4a",
+					"name": "Act_MR_Military_Stand_Pistol_01_02 4",
+					"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -80.62177028345714,
+									"y": 0.0322741412672445,
+									"z": -179.83291126110115
+								},
+								"position": {
+									"x": 21.045673,
+									"y": -120.74592,
+									"z": -10.126103
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": -1
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "feeda757c7598235",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed5fdeaa382438",
+				{
+					"parent": "1d384d6f42da6d4a",
+					"name": "Act_MR_Military_Stand_Pistol_01_02 4",
+					"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -88.33697438498513,
+									"y": 0.023444624326068766,
+									"z": -144.40645490429418
+								},
+								"position": {
+									"x": 27.460194,
+									"y": -123.85408,
+									"z": -14.463667
+								}
+							}
+						},
+						"m_fActTimeout": {
+							"type": "float32",
+							"value": -1
+						},
+						"m_pActor": {
+							"type": "SEntityTemplateReference",
+							"value": "feeda757c7598234",
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
 }

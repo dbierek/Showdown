@@ -1,10 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"id": "DannyBierek.Showdown",
 	"name": "Showdown",
 	"description": "A mod to make more enemies appear in the showdown with Vidal's guards.",
 	"authors": ["Danny Bierek"],
 	"contentFolders": ["content"],
-	"frameworkVersion": "2.15.1"
+	"frameworkVersion": "2.15.1",
+	"updateCheck": "https://github.com/dbierek/Showdown/releases/latest/download/updates.json"
 }
